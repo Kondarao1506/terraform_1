@@ -21,3 +21,19 @@ variable "mysql_sgname" {
   default = "mysql"
 }
 
+variable "backend_sgname" {
+  default = "backend"
+}
+
+variable "frontend_sgname" {
+  default = "frontend"
+}
+
+variable "bastian_sgname" {
+  default = "bastian"
+}
+
+variable "ansible_sgname" {
+  default = "ansible"
+}
+

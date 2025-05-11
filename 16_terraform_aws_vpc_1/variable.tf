@@ -12,6 +12,10 @@ variable "environment" {
   type = string
 }
 
+# variable "server" {
+  
+# }
+
 #common tags for vpc optional
 variable "common_tags" {
   default = {}
@@ -79,3 +83,11 @@ variable "private_route_table_tags" {
 variable "database_route_table_tags" {
   default = {}
 }
+
+variable "sg_tags" {
+  default = {}
+}
+
+# variable "vpcid" {
+  
+# }
